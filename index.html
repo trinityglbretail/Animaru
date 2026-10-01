@@ -1200,6 +1200,21 @@ src="Images/logo.jpg" alt="Animaru – Eco-Friendly Cat Litter Boxes" style="hei
 
   <div style="max-width: 680px; margin: 50px auto 0;">
     <form id="contact-form" action="https://formspree.io/f/mqegrvjo" method="POST" style="display:flex; flex-direction:column; gap:20px;">
+ <!-- Email Field (Mandatory) -->
+        <div>
+          <label style="display:block; font-size:14px; font-weight:600; margin-bottom:8px; color:var(--dark);">Email Address <span style="color: red;">*</span></label>
+          <input type="email" name="email" required placeholder="e.g. name@example.com"
+            style="width:100%; padding:14px 18px; border:2px solid #E0D9CE; border-radius:12px; font-size:15px; font-family:'DM Sans',sans-serif; background:white; color:var(--dark); outline:none; transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='#E0D9CE'">
+        </div>
+
+        <!-- Phone Number Field (Mandatory) -->
+        <div>
+          <label style="display:block; font-size:14px; font-weight:600; margin-bottom:8px; color:var(--dark);">Phone Number <span style="color: red;">*</span></label>
+          <input type="tel" name="phone" required placeholder="e.g. (123) 456-7890"
+            style="width:100%; padding:14px 18px; border:2px solid #E0D9CE; border-radius:12px; font-size:15px; font-family:'DM Sans',sans-serif; background:white; color:var(--dark); outline:none; transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange)'" onblur="this.style.borderColor='#E0D9CE'">
+        </div>
 
       <!-- Subject -->
       <div>
